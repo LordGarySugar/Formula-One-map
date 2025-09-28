@@ -1,0 +1,7 @@
+# Field of Work == Formula One
+SELECT ?item ?itemLabel
+WHERE
+{
+  ?item wdt:P101 wd:Q1968 .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],mul,en" }
+}
