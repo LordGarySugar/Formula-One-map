@@ -1,0 +1,7 @@
+# Occupation = Formula One driver
+SELECT ?item ?itemLabel
+WHERE
+{
+  ?item wdt:P106 wd:Q10841764 .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],mul,en" }
+}
