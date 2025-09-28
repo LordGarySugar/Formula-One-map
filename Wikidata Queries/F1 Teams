@@ -1,0 +1,7 @@
+# Formula One teams
+SELECT ?item ?itemLabel
+WHERE
+{
+  ?item wdt:P31 wd:Q10497835 .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],mul,en". }
+}
