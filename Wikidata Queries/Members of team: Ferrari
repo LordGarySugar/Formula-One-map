@@ -1,0 +1,7 @@
+# Member of Sports Team == Scuderia Ferrari
+SELECT ?item ?itemLabel
+WHERE
+{
+  ?item wdt:P54 wd:Q169898 .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],mul,en" }
+}
