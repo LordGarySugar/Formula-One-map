@@ -6,15 +6,15 @@ style:
       icon-image:
         - case
         - [ ==, [ get, name], "Red Bull Racing"]
-        - https://raw.githubusercontent.com/LordGarySugar/Formula-One-map/refs/heads/main/icons/Red_bull_racing.png?token=GHSAT0AAAAAADHC5JWBNUBN6VL6YP3VITBK2GZ2ESA
+        - https://raw.githubusercontent.com/LordGarySugar/Formula-One-map/refs/heads/main/icons/Red_bull_racing.png
         - [ ==, [ get, name], "Türk Pirelli Lastikleri A.Ş."]
-        - https://raw.githubusercontent.com/LordGarySugar/Formula-One-map/refs/heads/main/icons/Pirelli.png?token=GHSAT0AAAAAADHC5JWAHBKHXB62O325LCR42GZ2F7Q
+        - https://raw.githubusercontent.com/LordGarySugar/Formula-One-map/refs/heads/main/icons/Pirelli.png
         - [ ==, [ get, man_made ], works]
-        - https://raw.githubusercontent.com/LordGarySugar/Formula-One-map/refs/heads/main/icons/garage.png?token=GHSAT0AAAAAADHC5JWAGGK5OJHFLDRYGVIY2GZZWAA
+        - https://raw.githubusercontent.com/LordGarySugar/Formula-One-map/refs/heads/main/icons/garage.png
         - [ ==, [ get, office], company]
-        - https://raw.githubusercontent.com/LordGarySugar/Formula-One-map/refs/heads/main/icons/office.png?token=GHSAT0AAAAAADHC5JWBRH4L3H4QIRIGVL7C2GZZOMA
+        - https://raw.githubusercontent.com/LordGarySugar/Formula-One-map/refs/heads/main/icons/office.png
         - [ ==, [ get, amenity], studio]
-        - https://raw.githubusercontent.com/LordGarySugar/Formula-One-map/refs/heads/main/icons/camera.png?token=GHSAT0AAAAAADHC5JWABAPKDBPAO6KLN7L62GZZQEA
+        - https://raw.githubusercontent.com/LordGarySugar/Formula-One-map/refs/heads/main/icons/camera.png
 
         - maki:circle
   extends: https://api.protomaps.com/styles/v5/light/en.json?key=f8eceeaad6896c92
